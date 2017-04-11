@@ -1,0 +1,76 @@
+;Theme info
+name = BARG
+description = BARG ready for use Industries, School, hospital, corporative, travel, fashion, jewellery and any business.
+package = Core
+version = VERSION
+core = 7.x
+screenshot = 'screenshot.png'
+
+; Add a style sheet
+stylesheets[all][] = css/bootstrap.css
+stylesheets[all][] = css/font-awesome.min.css
+stylesheets[all][] = fonts/themify-icons.css
+stylesheets[all][] = css/owl.carousel.css
+stylesheets[all][] = css/magnific-popup.css
+stylesheets[all][] = css/animate.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/google-font.css
+stylesheets[all][] = css/update.css
+
+; Add a script
+scripts[] = js/jquery-1.11.3.min.js
+scripts[] = js/owl.carousel.min.js
+scripts[] = js/bootstrap.min.js
+scripts[] = js/prefixfree.min.js
+scripts[] = js/jquery.magnific-popup.min.js
+scripts[] = js/jquery.lettering.js
+scripts[] = js/jquery.plugin.min.js
+scripts[] = js/jquery.countdown.min.js
+scripts[] = js/jquery-ui.js
+scripts[] = js/wow.js
+scripts[] = js/masonry.pkgd.min.js
+scripts[] = js/script.js
+scripts[] = js/update.js
+
+
+;Core regions
+
+
+regions[header_search] = 'Header search'
+regions[scroll_menu] = 'Scroll menu'
+regions[main_menu] = 'Main menu'
+regions[intro] = 'Section intro'
+regions[content] = 'Main Content'
+regions[section] = 'Section'
+regions[bottom_projects] = 'Bottom projects'
+regions[sidebar] = 'Sidebar'
+regions[footer] = 'Footer'
+regions[footer_end_right] = 'Footer end right'
+
+
+
+regions[highlighted] = 'highlighted '
+regions[sidebar_first] = 'Sidebar first '
+
+
+;Features (core settings)
+features[] = 'logo'
+features[] = 'name'
+
+features[] = 'slogan'
+features[] = 'node_user_picture'
+features[] = 'comment_user_picture'
+features[] = 'comment_user_verification'
+features[] = 'favicon'
+features[] = 'go_to_top_button'
+features[] = 'secondary_menu'
+
+;Breadcrumb
+settings[breadcrumb_display] = 'yes'
+settings[breadcrumb_separator] = ' &#187; '
+settings[breadcrumb_home] = 1
+
+
+version = "7.x"
+project = "BARG"
+datestamp = "1365027012"
