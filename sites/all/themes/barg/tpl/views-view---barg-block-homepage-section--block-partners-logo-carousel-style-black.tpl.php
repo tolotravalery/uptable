@@ -10,7 +10,7 @@
 			<?php print $header; ?>
 		<?php endif; ?>
 		<?php if ($rows): ?>
-			<!-- Wrapper -->
+			<!-- Wrappera -->
 	        <div class="partners_wrapper clearfix">
 				<?php print $rows; ?>
 			</div>

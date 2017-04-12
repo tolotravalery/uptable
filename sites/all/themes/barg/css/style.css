@@ -1466,6 +1466,7 @@ header.no_border {
 		padding: 0;
 		float: none;
 		position: relative;
+		margin-bottom: 25px;
 
 	}
 	.footer.white_txt h4 {
@@ -1477,9 +1478,10 @@ header.no_border {
 		.footer .logo a {
 			margin: 0!important;
 			height: 37px;
-			padding: 0 15px;
+			/*padding: 0 15px;*/
+			padding: 0 1px;
 			color: #6f6f6f;
-			border: 2px solid #6f6f6f;
+			/*border: 2px solid #6f6f6f;*/
 		}
 		.footer .date {
 			display: block;

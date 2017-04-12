@@ -3,15 +3,19 @@
 $out = '';
 
 if($block->region == 'section'){
-
-	$out .= '<section class="boxes '.$classes.'" '.$attributes.'><div class="container-fluid">';
-	$out .= render($title_suffix);
-	if ($block->subject):
-		$out .= '<h4 class="sml_abs_title wow fadeInUp">'.$block->subject.'</h4>';
-	endif;
-	$out .= $content;
-	$out .= '</div></section>';
-
+	
+	if(strcmp($block->subject,"Portfolio")==0){
+		$out= '';
+	}
+	else{
+		$out .= '<section class="boxes '.$classes.'" '.$attributes.'><div class="container-fluid">';
+		$out .= render($title_suffix);
+		if ($block->subject):
+			$out .= '<h4 class="sml_abs_title wow fadeInUp">'.$block->subject.'</h4>';
+		endif;
+		$out .= $content;
+		$out .= '</div></section>';
+	}
 
 } else if($block->region == 'footer_style1_col1'){
 
