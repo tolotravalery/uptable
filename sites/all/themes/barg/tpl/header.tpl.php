@@ -32,7 +32,8 @@
 
     if ($header_style == 'header1') {
 
-        $class_header = 'white_bck';
+        /*$class_header = 'white_bck';*/
+		$class_header = 'white_bck black_bck';
 
     } elseif ($header_style == 'header1a') {
 
@@ -156,6 +157,7 @@
         <span class="tl_item">
 
         <span class="ti ti-location-pin"></span> <?php print $address; ?>
+		
 
         </span>
 
@@ -167,8 +169,8 @@
 
         <span class="tl_item">
 
-        <span class="ti ti-email"></span> <a href="mailto:<?php print $email_contact; ?>"><?php print $email_contact; ?></a>
-
+       <span class="ti ti-email"></span> <a href="mailto:<?php print $email_contact; ?>"><?php print $email_contact; ?></a>
+		
         </span>
 
     <?php endif; ?>
@@ -182,6 +184,7 @@
             <span class="tl_item">
 
             <span class="ti ti-mobile"></span> <?php print $phone_contact; ?>
+			
 
             </span>
 
@@ -199,8 +202,8 @@
 
     <div class="logo pull-left">
 
-        <!--<a href="<?php print $base_url; ?>"><b><?php print $text_logo; ?></b></a>-->
-		<a href="#"><img src="sites/all/themes/barg/logo.png" alt=""></a>
+        <a href="<?php print $base_url; ?>"><img src="<?php print $logo; ?>"></a>
+		<!--<a href="<?php print $base_url; ?>"><img src="sites/all/themes/barg/logo.png" alt=""></a>-->
 
     </div>
 

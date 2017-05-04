@@ -11,6 +11,7 @@
         } else $backgorund_img = base_path().path_to_theme().'/images/shop1.jpg';
     }
 ?>
+<!--test-->
 <!-- Inside Title -->
 <?php if ($backgorund_img != ''): ?>
 <div class="inside_title image_bck bordered_wht_border white_txt" data-image="<?php print $backgorund_img; ?>">

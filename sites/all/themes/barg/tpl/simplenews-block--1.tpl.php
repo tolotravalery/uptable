@@ -1,3 +1,4 @@
+<!--
 <?php
 	$form['mail']['#attributes']['placeholder'] = 'Enter Your Email';
 ?>
@@ -8,3 +9,4 @@
 <div class="form-tip">
 	<i class="fa fa-info-circle"></i> <?php print t('Please trust us, we will never send you spam') ?>
 </div>
+-->

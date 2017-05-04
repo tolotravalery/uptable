@@ -776,6 +776,16 @@ h2, h1, h2 a, h3 {
 	color: #292929;
 	margin: 40px 0 20px
 }
+/*h3 without after*/
+.h3_without_after{
+	font: 400 22px/36px Oswald;
+    display: block;
+    width: 100%;
+    color: #292929;
+    margin: 40px 0 20px;
+    text-transform: uppercase;
+}
+/*h3 without after*/
 h6.title {
 	font:400 16px/28px Oswald;
 	text-transform:uppercase;
@@ -964,7 +974,8 @@ ul {
 		}
 		.post-snippet .inner {
 			padding:32px;
-			background: #fafafa;
+			/*background: #fafafa;*/
+			background: rgba(0, 0, 0, 0.78);
 		}
 		.white_txt .inner, .white_txt .inner a, .white_txt .inner h4 {
 			color: #333
@@ -977,6 +988,7 @@ ul {
 		}
 		.masonry-item {
 			border: 0;
+			box-shadow: 2px 2px 5px #aaa;
 		}
 			.masonry-item a {
 				display: block;
@@ -1240,6 +1252,12 @@ header.no_border {
 		header.no_border .main_menu i {
 			margin: 17px 0 0 16px !important
 		}
+		/*<li></li>*/
+		.list-general {list-style-type:none;}
+		.list-general::before {
+			content: "→ ";
+		}
+		/*<li></li>*/
 		header.no_border .sub_menu li {
 			border: 1px solid rgba(255, 255, 255, 0.18);
 			margin-left: 2px;
@@ -2191,7 +2209,7 @@ header.no_border {
 		overflow: hidden;
 	}
 		.masonry-item .btn {
-			margin-left: 0;
+			margin-left: 25%;
 			margin-right: 0
 		}
 		.masonry-item a:hover .potfolio_txt {
@@ -2299,7 +2317,7 @@ blockquote footer {
         font-size: 12px;
     }
 .progress-bar {
-	font: 400 20px/28px Oswald;
+	font: 400 16px/28px Oswald;
 	background-image: none;
 	text-shadow:none;
 	box-shadow: none;
@@ -2542,7 +2560,7 @@ blockquote footer {
 
 /*Object Sliders*/
 .mac_base {
-	background: url(../images/mac.png);
+	/*background: url(../images/mac.png);*/
 	width: 657px;
 	height: 529px;
 	position: relative;
@@ -2848,6 +2866,9 @@ blockquote footer {
 		top: 0;
 		right: 0;
 	}
+	#welcome{
+		margin-right: 55%;
+	}
 	.intro_text_rb {
 		bottom: 0;
 		right: 0;
@@ -2985,7 +3006,7 @@ blockquote footer {
 		margin-right: 10px
 	}
 .btn-default {
-	border-radius: 0;
+	border-radius: 4px;
 	color: #262626!important;
 	transition:0.3s all;
 	text-transform: uppercase;
@@ -2993,9 +3014,12 @@ blockquote footer {
 	text-shadow:none;
 	box-shadow: none;
 	border: 1px solid rgba(255,255,255,0.18);
+	width: 50%;
 }
 	.btn-default:hover, .btn-default.active, .sub_menu .active .btn-default {
-		background: #292929;
+		/*background: #292929;
+		color: #fff!important;*/
+		background: rgb(158, 62, 62);
 		color: #fff!important;
 		border: 1px solid #292929
 	}
@@ -3012,6 +3036,7 @@ blockquote footer {
 	.btn-white:hover, .btn-white:focus, .btn-white:active {
 		background: #ededed;
 		color: #292929!important;
+		
 	}
 
 /*Boxes*/
@@ -3137,7 +3162,7 @@ blockquote footer {
 }
 .form-opacity {
 	background: none;
-	color: #fff
+	color: #ffffff;
 }
 .pdg_top_btm_20 {
 	padding: 20px 0!important
@@ -3606,6 +3631,25 @@ blockquote footer {
 		opacity: 0.7;
 		transition:0.3s all;
 	}
+	#title_process{
+		font-weight: bolder;
+		text-align:center;
+		margin-top: 10%;
+	}
+	#title_process::after{
+		content: "";
+		width: 50px;
+		height: 3px;
+		display: block;
+		margin-top: 7px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #377694 !important;
+					
+	}
+	#subtitle_process{
+		text-align:center;
+	}
 	.bordered_zoom .box_content .bottom_title {
 		position: absolute;
 		bottom: 0;
@@ -3782,6 +3826,12 @@ blockquote footer {
 	}
 	.mid_wrapper .owl-item .bordered_block {
 		height: 100%
+	}
+	#selected{
+		/*width: 446px;
+		height: 400px;*/
+		width: 375px;
+		height: 336px;
 	}
 .mid_box {
 	padding:20px 20px 0;

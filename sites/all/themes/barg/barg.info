@@ -18,6 +18,7 @@ stylesheets[all][] = css/google-font.css
 stylesheets[all][] = css/update.css
 
 ; Add a script
+;scripts[] = js/jquery.js
 scripts[] = js/jquery-1.11.3.min.js
 scripts[] = js/owl.carousel.min.js
 scripts[] = js/bootstrap.min.js
@@ -27,10 +28,14 @@ scripts[] = js/jquery.lettering.js
 scripts[] = js/jquery.plugin.min.js
 scripts[] = js/jquery.countdown.min.js
 scripts[] = js/jquery-ui.js
+;scripts[] = js/modernizr.custom.js
+;scripts[] = js/classie.js
+;scripts[] = js/bergScroller.js
 scripts[] = js/wow.js
 scripts[] = js/masonry.pkgd.min.js
 scripts[] = js/script.js
 scripts[] = js/update.js
+
 
 
 ;Core regions

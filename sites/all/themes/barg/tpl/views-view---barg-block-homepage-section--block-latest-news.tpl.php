@@ -1,8 +1,8 @@
 <?php print render($title_prefix); ?>
 
 <div class="row">
-    <!-- col -->
-    <div class="col-md-12 bordered_block grey_border image_bck" data-color="#f4f4f4">
+    <!-- cola -->
+    <div class="col-md-12 bordered_block grey_border image_bck" data-color="#f4f4f4"> 
         <div class="container">
 		<?php if ($header): ?>
 			<?php print $header; ?>
