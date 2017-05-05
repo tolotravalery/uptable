@@ -2077,11 +2077,7 @@ pre code {
 	  width: 14%;
 	  margin-top:5%;
   }
-  #img_process{
-	display: block;
-    margin-right: auto;
-    margin-left: auto;
-  }
+  
   .col-md-pull-12 {
     right: 100%;
   }

@@ -92,7 +92,7 @@
                 <?php if ($copyright): ?>
                 <div class="col-sm-6">
                     <!--<span class="sub"><?php print $copyright; ?></span>-->
-					<span class="sub">© Copyright 2017 - Uptables</span>
+					<span class="sub">© Copyright 2017 - teams Uptables</span>
                 </div>
                 <?php endif; ?>
                 <?php if($page['footer_end_right']): ?>
