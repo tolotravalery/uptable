@@ -2831,6 +2831,7 @@ blockquote footer {
 		}
 	.intro_image {
 		position: absolute;
+		right: -100px !important;
 		width: 50%;
 		z-index: 5!important;
 	}
@@ -4831,4 +4832,6 @@ blockquote footer {
 	.class_about_4{
 		margin-top: 8%;
 	}
+	
 }
+
