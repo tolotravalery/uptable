@@ -22,8 +22,8 @@
             $footer_background = file_create_url(file_load($footer_bg_image)->uri);
         } else $footer_background ='';
     }
-    
-    
+
+
     if (isset($node->field_footer_class) && !empty($node->field_footer_class))
     {
         $footer_class = $node->field_footer_class['und'][0]['value'];
@@ -66,8 +66,8 @@
         } else $footer_overlay_opacity = theme_get_setting('footer_overlay_opacity','barg');
         if (empty($footer_overlay_opacity)) $footer_overlay_opacity ='0.5';
     }
-    
-    
+
+
 ?>
 <div class="footer <?php print $footer_class ?> <?php if ($footer_color != '' || $footer_background != '') print 'image_bck'; ?>" <?php if ($footer_color != '') print 'data-color="'.$footer_color.'"' ?>
  <?php if ($footer_background != '') print 'data-image="'.$footer_background.'"' ?> >
@@ -92,7 +92,7 @@
                 <?php if ($copyright): ?>
                 <div class="col-sm-6">
                     <!--<span class="sub"><?php print $copyright; ?></span>-->
-					<span class="sub">© Copyright 2017 - teams Uptables</span>
+					<span class="sub">© Copyright 2017 - teams Up Creatives</span>
                 </div>
                 <?php endif; ?>
                 <?php if($page['footer_end_right']): ?>
