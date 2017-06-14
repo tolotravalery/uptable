@@ -1,7 +1,7 @@
 <div class="row">   
     <div class="col-md-12 bordered_block grey_border">
         <div class="container">
-            <h3 class="text-center">Recent projects</h3>
+            <h3 class="text-center">Selected projects</h3>
 				<div class="masonry row" style="position: relative; height: 1303px;">
 					<div class="region region-content">
 						<div class="block block-system">
