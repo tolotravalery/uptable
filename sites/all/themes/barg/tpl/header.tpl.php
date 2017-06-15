@@ -223,8 +223,7 @@
 
             <?php if ($page['main_menu']): ?>
 
-                <?php print render($page['main_menu']); ?>
-
+              <?php print render($page['main_menu']); ?>
             <?php endif; ?>
 
         <?php } else { ?>
@@ -232,8 +231,8 @@
             <div class="sub_cont"><ul class="one-menu"></ul></div>
 
         <?php } ?>
-
-            <?php if ($page['header_search']): ?>
+		
+           <!-- <?php if ($page['header_search']): ?>
 
             <div class="sub_min_width mega_menu hide">
 
@@ -243,8 +242,8 @@
 
             </div>
 
-            <?php endif; ?>
-
+            <?php endif; ?>-->
+		
         </div>
 
         <!-- Sub Menu End -->
@@ -255,7 +254,7 @@
 
     <!-- Up Arrow -->
 
-    <a href="#page" class="up_block go"><i class="fa fa-angle-up"></i></a>
+   <a href="#page" class="up_block go"><i class="fa fa-angle-up"></i></a> 
 
 </header>
 
