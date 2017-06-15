@@ -23,7 +23,7 @@ $(document).ready(function() {
 			$(this).html(html);
 		}
 	});
-	$('.sub_cont > ul').append('<li class="right_sub no_arrow sub_min_width"><a href="#" class="parents"><i class="ti-search"></i></a></li>');
+	$('.sub_cont > ul').append('');
 
 	$('.sub_cont > ul li.right_sub').click(function(event) {
 		/* Act on the event */
