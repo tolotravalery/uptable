@@ -104,11 +104,9 @@ function barg_css_alter(&$css) {
 
 function barg_form_alter(&$form, &$form_state, $form_id) {
 	if ($form_id == 'search_block_form') {
-		$form['search_block_form']['#title_display'] = 'invisible'; // Toggle label visibilty
-		$form['search_block_form']['#default_value'] = t('Search'); // Set a default value for the textfield
+		$form['search_block_form']['#title_display'] = 'invisible'; 
+		$form['search_block_form']['#default_value'] = t('Search');
 		$form['search_block_form']['#attributes']['id'] = array("mod-search-searchword");
-		//disabled submit button
-		//unset($form['actions']['submit']);
 		unset($form['search_block_form']['#title']);
 		$form['search_block_form']['#attributes']['onblur'] = "if (this.value == '') {this.value = 'Search';}";
 		$form['search_block_form']['#attributes']['onfocus'] = "if (this.value == 'Search') {this.value = '';}";
@@ -254,7 +252,7 @@ function getRelatedPosts($ntype,$nid,$image){
 
 		} else {
 			if ($element['#below']) {
-			$sub_menu = drupal_render($element['#below']);
+				$sub_menu = drupal_render($element['#below']);
 			}
 			$output = l($element['#title'], $element['#href'], $element['#localized_options']);
 		}
